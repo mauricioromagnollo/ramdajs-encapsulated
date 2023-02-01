@@ -6,7 +6,7 @@ describe('getArrayOfValuesFromKey', () => {
       { foo: 1, bar: 'any' },
       { foo: 2, bar: 'any' },
       { foo: 3, bar: 'any' },
-      { foo: 3, bar: 'any' },
+      { foo: 3, bar: 'any' }
     ]
 
     const result = getArrayOfValuesFromKey({ list: array, key: 'foo' })

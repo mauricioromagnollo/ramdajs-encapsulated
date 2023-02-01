@@ -1,4 +1,4 @@
-const { pluck, uniq } = require("ramda")
+const { pluck, uniq } = require('ramda')
 
 const getArrayOfValuesFromKey = ({ key, list, unique = false }) => {
   const values = pluck(key, list)

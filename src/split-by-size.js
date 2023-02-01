@@ -1,4 +1,4 @@
-const { splitEvery } = require("ramda")
+const { splitEvery } = require('ramda')
 
 const splitBySize = ({ size, array }) => splitEvery(size, array)
 
